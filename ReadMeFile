@@ -1,0 +1,58 @@
+# Supreme Court Judges Data Scraper 🏛️
+
+### A Python web scraping project built on Anaconda that extracts comprehensive judge information from the Supreme Court of India website.
+
+## 🚀 Features
+
+- **Data Extraction**: Scrapes judge names, dates of birth, appointment dates, and retirement dates
+- **Image Download**: Automatically downloads judge profile images
+- **Structured Output**: Exports data to Excel format with proper formatting
+- **Error Handling**: Robust scraping with proper exception handling
+
+## 🛠️ Tech Stack
+
+- **Anaconda** - Python distribution
+- **BeautifulSoup4** - Web scraping
+- **Requests** - HTTP requests
+- **Pandas** - Data manipulation and Excel export
+- **Jupyter Notebook** - Development environment
+
+## 📁 Project Structure
+
+supreme-court-scraper/
+├── supreme_court_scraper.ipynb # Jupyter notebook
+├── judges_data.xlsx # Output Excel file
+├── images/ # Downloaded judge images
+└── README.md # Project documentation
+
+
+
+## ⚡ Quick Start
+
+1. **Setup Anaconda Environment**
+``bash
+  conda install beautifulsoup4 requests pandas
+  
+  
+  Run the Notebook
+  
+  Open supreme_court_scraper.ipynb in Jupyter Notebook
+      
+  Execute cells sequentially
+      
+  Output Files
+      
+  judges_data.xlsx - Complete judge information
+  images/ folder - Judge profile pictures
+
+
+### 📊 Data Collected
+Judge Full Names (34 judges)
+
+Date of Birth (DOB)
+
+Date of Appointment (DOA)
+
+Date of Retirement (DOR)
+
+Profile Images
